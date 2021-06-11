@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility is making your web page available and easy to use to anyone. This includes those with disabilities  and or visual impairments. It also means making your webpage available and easy to use to people on mobile devices and people with slow internet connection.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+One of the first things that you can do to ensure your website is accessible is to use semantic HTML. This means using elements with meaning. This helps most with screen readers. A second thing you can do is to use alternative text, which describes something like an image if it does not load or if someone is using a screen reader. A third thing you can do is use the @media rule along with media queries which makes your website more accessible to those on different devices or screen sizes.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is like a container that can hold a value. We can then use these containers to call on that value later in our code. We use the keywords var, let and const to call on these variables or containers. So let's say you want a container to say name. The value would be the person’s name. So to write this you could say const name = "Bailey". You could then use name (the variable or container) later in the code and it would give you the name you wrote, in this case, "Bailey". 
+
 4. What is the purpose of using functions in code?
+
+A function is like a mini program that is designed to perform a specific task inside of your already existing program. But the mini program doesn’t run until it is invoked or in other words called on. This allows you to execute or use the mini program as many times as you want inside of your existing program, but also allows it to have the ability to not run, unless you want it to. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
