@@ -245,9 +245,17 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/){
-  /*Your Code Here*/
+function get20s(array){
+  let newArray = [];
+  for(let i=0; i<array.length; i++){
+    if(array[i].years > "1899-1999" && array[i].years < "2000-2021"){
+      newArray.push(array[i].name);
+    }
+  }
+  return newArray;
 }
+console.log(get20s(artists));
+
 
 
 
@@ -260,9 +268,12 @@ function get20s(/*Your Code Here*/){
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/){
-   /*Your Code Here*/
+function removeArtist(array, number){
+   array.indexOf(number);
+   array.splice(array.indexOf(number),1);
+   return array.length;
 }
+console.log(removeArtist(artists,0));
    
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -281,10 +292,11 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array){
+    array.push({id:20, name:"Bailey Evanger", years:"1995-2021", genre:"Web Design", nationality:"American", bio:"Born and raised in the Seattle Washington Area"});
+    return array;
   }
-
+console.log(addArtist(artists));
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
