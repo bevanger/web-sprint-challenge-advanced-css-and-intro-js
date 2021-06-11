@@ -159,4 +159,24 @@ button:hover{
     .title-container hr{
         width:100%;
     }
+/*Artists Section Styles*/
+    .artists-container{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    .artist{
+        width:80%;
+    }
+    .artist img{
+        width:80%;
+        height:30%;
+        margin-top:8%;
+    }
+    .artist a{
+        font-size:1.8rem;
+    }
+    .bio{
+        font-size:1.2rem;
+    }
 } 
