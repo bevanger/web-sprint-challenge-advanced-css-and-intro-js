@@ -144,5 +144,19 @@ button:hover{
         font-size:2rem;
         line-height:2%;  
     }   
-    
+/*Title Section Styles*/    
+    .title-container div{
+        width:100%;
+        height: 50vh;
+        margin-bottom:2%;  
+    }
+    h1{
+        font-size:4rem;
+    }
+    button{
+        width:25%;
+    }
+    .title-container hr{
+        width:100%;
+    }
 } 
