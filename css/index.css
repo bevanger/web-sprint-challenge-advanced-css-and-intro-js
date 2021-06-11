@@ -134,3 +134,15 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/*Responsive Styles */
+
+@media(max-width: 500px){
+/*HEADER STYLES */
+    nav a{
+        padding:8%;
+        font-size:2rem;
+        line-height:2%;  
+    }   
+    
+} 
